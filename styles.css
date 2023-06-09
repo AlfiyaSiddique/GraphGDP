@@ -42,7 +42,7 @@ input{
 }
 
 #design{
-    background: url(./bg.jpg) no-repeat center center; 
+    background: url(bg.jpg) no-repeat center center; 
     background-size: cover;
     position: absolute;
     top: 0;
