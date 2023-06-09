@@ -15,7 +15,7 @@ function getData(country) {
   .attr("id", "graphTitle")
   .text(`${country} GDP`)
 
-  fetch("/codes.json")
+  fetch("./codes.json")
     .then((res) => {
       return res.json();
     })
@@ -165,7 +165,7 @@ function buildGraph(dataset) {
     })
 }
 
-fetch("/defaultData.json")
+fetch("./defaultData.json")
   .then((res) => {
     return res.json();
   })
