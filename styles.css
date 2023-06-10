@@ -7,6 +7,10 @@
     overflow-x: hidden;
 }
 
+body{
+    position: relative;
+}
+
 .container{
  position: relative;
  width: 100vw;
